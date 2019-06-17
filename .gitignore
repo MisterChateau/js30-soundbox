@@ -1,0 +1,58 @@
+###############
+# Directories #
+###############
+/build/
+/bin/
+/node_modules
+/temp/
+/karma_reports
+target
+/docs
+/vendor_dev
+/servers/stubApi/stubs/
+/themes
+
+#########
+# Files #
+#########
+.DS_Store
+/ooconfig.dev.*
+/ooconfig-sharing.dev.*
+/npm-debug.log
+/servers/stubApi/stuback.config.js
+
+######################
+# IDEs files and dir #
+######################
+.project
+.metadata
+.classpath
+.settings/
+local.properties
+/eclipse_launchers
+/.idea
+*.launch
+*.iml
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
